@@ -1,0 +1,74 @@
+body {
+	width: 960px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 2em;
+	margin: 0 0 0 20px;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2, h3 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#add_employee_form {
+    height: 180px;
+}
+
+label  {
+    width: 100px;
+    display: inline-block;
+}
+
+#name, #title, #extension {
+    border: 1px solid #5b9bd5;
+    padding: 5px;
+}
+
+.btn {
+    background-color: #5b9bd5;
+    border: 1px solid #0074B7;
+    color: #FFFFFF;
+    padding: 4px 20px;
+}
+
+#add_btn {
+    margin-left: 220px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 1px; 
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+table th {
+    background-color: #5b9bd5;
+    padding: 5px 10px; 
+    color: #FFFFFF;
+}
+
+table tr {
+    background-color: #d2deef;
+}
+
+table tr td {
+    padding: 5px 10px; 
+}
+
+table tr:nth-of-type(odd) {
+    background-color: #eaeff7;
+}
+
+table tr td:last-child {
+    text-align: center;
+}
+
+.error_msg {
+    color: #FF0000;
+}
